@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: "https://parcprojet-backend-cc80b8e5455c.herokuapp.com//api",
+  baseURL: "https://parcprojet-backend-cc80b8e5455c.herokuapp.com/api",
   //baseURL: process.env.REACT_APP_API_URL || 'http://192.168.1.221:5000/api',
 });
 
