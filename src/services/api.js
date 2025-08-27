@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const API = axios.create({
-  //baseURL: "https://fahimtabackend-647bfe306335.herokuapp.com/api",
-  baseURL: process.env.REACT_APP_API_URL || 'http://192.168.80.55:5000/api',
+  baseURL: "https://parcprojet-backend-cc80b8e5455c.herokuapp.com//api",
+  //baseURL: process.env.REACT_APP_API_URL || 'http://192.168.1.221:5000/api',
 });
 
 // ✅ Intercepteur pour attacher le token à chaque requête
